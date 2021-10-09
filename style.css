@@ -78,6 +78,7 @@ main h1 {
 }
 
 main p {
+    font-family: "Times New Roman", Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     color: var(--yellow);
