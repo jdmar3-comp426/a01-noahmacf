@@ -32,7 +32,7 @@ li #home {
     float: left;
 }
 
-li #links {
+li .links {
     float: right;
 }
 
