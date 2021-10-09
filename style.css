@@ -77,11 +77,6 @@ main h1 {
     color: var(--yellow);
 }
 
-main h2 {
-    height: 50px;
-    background: linear-gradient(45deg, var(--yellow), #FF8C00);
-}
-
 main p {
     margin-left: 20px;
     margin-right: 20px;
