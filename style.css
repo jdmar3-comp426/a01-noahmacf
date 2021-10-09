@@ -183,6 +183,18 @@ main p {
     width: 240px;
 }
 
-.forms {
+.formsregular {
+    width: 100%;
+}
+
+.formsshiny {
+    width: 100%;
+}
+
+.formsmega {
+    width: 100%;
+}
+
+.formsmegashiny {
     width: 100%;
 }
