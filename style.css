@@ -74,24 +74,18 @@ main h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 25px;
-    background: -webkit-linear-gradient(45deg, var(--yellow), #FF8C00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--yellow);
 }
 
 main h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    background: -webkit-linear-gradient(45deg, var(--yellow), #FF8C00);
-    -webkit-text-fill-color: transparent;
+    height: 50px;
+    background: linear-gradient(45deg, var(--yellow), #FF8C00);
 }
 
 main p {
     margin-left: 20px;
     margin-right: 20px;
-    background: -webkit-linear-gradient(45deg, var(--yellow), #FF8C00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--yellow);
 }
 
 .entry {
