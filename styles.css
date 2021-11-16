@@ -1,0 +1,200 @@
+:root {
+    --lightg: #589E7D;
+    --darkg: #408861;
+    --black: #171717;
+    --pink: #CF6B76;
+    --yellow: #FED269;
+    --orange: #FF8C00;
+}
+
+body {
+    background-color: var(--lightg);
+}
+
+header {
+    background-image: linear-gradient(var(--lightg), var(--darkg));
+    padding: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 3.5em;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--darkg);
+}
+
+li #home {
+    float: left;
+}
+
+li .links {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: var(--black);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--yellow);
+}
+
+#logo {
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#title {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 5rem;
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.2rem;
+    background: var(--black);
+    border-left: 2px solid var(--yellow);
+    border-right: 2px solid var(--orange);
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 25px;
+    color: var(--yellow);
+}
+
+main p {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--yellow);
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.title {
+    color: var(--black);
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title.ruby {
+    background-color: #E0115F;
+    width: 260px;
+}
+
+.title.sapphire {
+    background-color: #0F52BA;
+    width: 260px;
+}
+
+.title.emerald {
+    background-color: #50C878;
+    width: 185px;
+}
+
+.title.firered {
+    background-color: #E25822;
+    width: 150px;
+}
+
+.title.diamond {
+    background-color: #ADD8E6;
+    width: 140px;
+}
+
+.title.pearl {
+    background-color: #FFB6C1;
+    width: 140px;
+}
+
+.title.heartgold {
+    background-color: #DB9200;
+    width: 135px;
+}
+
+.title.soulsilver {
+    background-color: #C0C0C0;
+    width: 135px;
+}
+
+.title.black {
+    background-color: black;
+    color: white;
+    width: 130px;
+}
+
+.title.white {
+    background-color: white;
+    width: 130px;
+}
+
+.title.black2 {
+    background-color: black;
+    color: white;
+    width: 130px;
+}
+
+.title.white2 {
+    background-color: white;
+    width: 130px;
+}
+
+.title.x {
+    background-color: blue;
+    width: 130px;
+}
+
+.title.y {
+    background-color: red;
+    width: 130px;
+}
+
+.title.omegaruby {
+    background-color: #8B0000;
+    width: 220px;
+}
+
+.title.alphasapphire {
+    background-color: #0277BD;
+    width: 240px;
+}
+
+.formsregular {
+    width: 100%;
+}
+
+.formsshiny {
+    width: 100%;
+}
+
+.formsmega {
+    width: 100%;
+}
+
+.formsmegashiny {
+    width: 100%;
+}
